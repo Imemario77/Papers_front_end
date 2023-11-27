@@ -1,0 +1,76 @@
+.staff-container {
+  width: auto;
+  max-width: 700px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: fit-content;
+  max-height: 600px;
+  min-width: 400px;
+}
+
+.staff-choice {
+  display: flex;
+  gap: 2rem;
+  width: inherit;
+}
+
+.staff-choice button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+}
+
+.staff-choice button:nth-child(1) {
+  background-color: teal;
+  color: white;
+}
+.staff-choice button:nth-child(2) {
+  background-color: orange;
+  color: white;
+}
+
+.acct-choice {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.acct-choice span {
+  margin-bottom: 20px;
+}
+
+.acct-choice input,
+.acct-choice select {
+  width: 80%;
+  padding: 5px 20px;
+  font-size: 15px;
+}
+
+.existing-acct {
+  gap: 1rem;
+}
+
+.new-acct {
+  gap: 1rem;
+}
+
+.acct-choice select {
+  width: 92%;
+}
+
+.send-staff-choice {
+  padding: 5px 10px;
+  background-color: green;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,155 @@
+.new-sales-holder {
+  width: inherit;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sales-heading {
+  align-self: flex-start;
+  padding-left: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.new-sales-container {
+  width: 90%;
+  min-width: 400px;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: fit-content;
+  margin: 0 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.new-sales-resister-heading {
+  width: 100%;
+  margin-top: 30px;
+  border-bottom: 1px solid black;
+}
+
+.display-row {
+  display: flex;
+  gap: 1rem;
+  margin: 30px;
+}
+
+.add-sales-product {
+  height: auto;
+  width: 100%;
+  overflow-x: scroll;
+  background-color: white;
+}
+
+.display-app-sale-product {
+  padding: 20px;
+  width: inherit;
+}
+.display-app-sale-product table {
+  width: 95%;
+  border-spacing: 30px;
+}
+
+.display-app-sale-product table thead tr th {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-bottom: 25px;
+  padding-top: 25px;
+  width: 150px;
+}
+
+.display-app-sale-product table tbody tr td {
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.display-app-sale-product table tbody tr td input {
+  padding: 10px 20px;
+  width: 200px;
+}
+
+.new-item-btn {
+  width: 110px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 18px;
+  background-color: var(--blue);
+  color: white;
+  border: none;
+}
+
+.save-and-continue {
+  padding: 15px 20px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  border-radius: 40px;
+  border: none;
+  background: var(--blue);
+  color: #fff;
+}
+
+.total-sum-div {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  background-color: gray;
+  align-self: flex-end;
+  padding: 5px;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+
+.total-sum-div span {
+  width: 93%;
+  height: inherit;
+  background-color: white;
+  text-align: right;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 70px;
+  padding-left: 30px;
+}
+
+.remarks-box-holder {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+  border-bottom: 1px solid black;
+  gap: 1rem;
+}
+
+.remarks-box-holder textarea {
+  width: 90%;
+  margin-left: 30px;
+  max-width: 90%;
+  min-width: 90%;
+}
+
+.remarks-box-holder label {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .total-sum-div {
+    width: 90%;
+  }
+  .remarks-box-holder textarea {
+    width: 85%;
+    margin-left: 30px;
+    max-width: 90%;
+    min-width: 85%;
+  }
+}

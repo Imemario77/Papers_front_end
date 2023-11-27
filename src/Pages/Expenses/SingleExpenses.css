@@ -1,0 +1,86 @@
+.s-expenses-container {
+  display: flex;
+  min-width: 500px;
+  width: auto;
+  margin-top: 3.5%;
+  background-color: white;
+  min-height: 500px;
+  flex-direction: column;
+  border: 1px solid gray;
+  min-height: 100vh;
+  height: auto;
+}
+
+.s-expenses-container-holder {
+  display: flex;
+  justify-content: center;
+  width: inherit;
+  min-height: inherit;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.s-expenses-heading {
+  width: inherit;
+  height: 100px;
+  background-color: rgba(174, 141, 141, 0.1);
+  font-size: 30px;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+}
+
+.s-expenses-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.category-value {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+}
+
+.category-value span:nth-child(1) {
+  font-size: 21px;
+  font-weight: 500px;
+}
+
+.category-value span:nth-child(2) {
+  font-size: 18px;
+  font-weight: 300px;
+}
+
+.s-expenses-feet {
+  width: inherit;
+  height: 100px;
+  background-color: rgba(174, 141, 141, 0.1);
+  font-size: 30px;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-top: 1px solid gray;
+  margin-top: 20px;
+}
+
+.s-expenses-feet div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.s-expenses-feet div span {
+  padding: 10px 20px;
+  background-color: var(--blue);
+  color: #fff;
+}

@@ -1,0 +1,63 @@
+.main-header {
+  color: #444;
+  background-color: #fff;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  position: relative;
+}
+
+.main-header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.main-header div span {
+  font-size: 35px;
+  margin-top: 10px;
+  transition: all 1s;
+}
+
+.main-header div span:hover {
+  color: teal;
+  scale: 1.2;
+}
+
+.main-header p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-icon-display {
+  font-size: 40px;
+  margin-left: 15px;
+}
+
+@keyframes nabvar {
+  0% {
+    transform: translateY(-100px);
+    background-color: #444;
+  }
+  50% {
+    transform: translateY(-50px);
+    background-color: green;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.main-header nav {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  background-color: rgb(129, 184, 243);
+  right: 0;
+  top: 13vh;
+  transition: all 0.5s;
+  animation: navbar 1s 0s 1 ease-out;
+}

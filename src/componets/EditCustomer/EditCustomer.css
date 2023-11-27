@@ -1,0 +1,75 @@
+.Customer-container {
+  width: auto;
+  max-width: 700px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: auto;
+  max-height: 400px;
+  min-width: 400px;
+}
+
+.Customer-choice {
+  display: flex;
+  gap: 2rem;
+  width: inherit;
+}
+
+.Customer-choice button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+}
+
+.Customer-choice button:nth-child(1) {
+  background-color: teal;
+  color: white;
+}
+.Customer-choice button:nth-child(2) {
+  background-color: orange;
+  color: white;
+}
+
+.acct-choice {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.acct-choice span {
+  margin-bottom: 20px;
+}
+
+.acct-choice input,
+.acct-choice select {
+  width: 80%;
+  padding: 5px 20px;
+  font-size: 15px;
+}
+
+.existing-acct {
+  gap: 1rem;
+}
+
+.new-acct {
+  gap: 1rem;
+}
+
+.acct-choice select {
+  width: 92%;
+}
+
+.send-Customer-choice {
+  padding: 5px 10px;
+  background-color: green;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+}

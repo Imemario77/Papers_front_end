@@ -1,0 +1,38 @@
+.button-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+.button-label div {
+  display: flex;
+  gap: 1rem;
+}
+.button-label span {
+  font-size: 20px;
+}
+
+.button-label button {
+  width: auto;
+  height: auto;
+  padding: 8px 15px;
+  font-size: 15px;
+  border: none;
+  color: gray;
+  border-radius: 20px;
+  transition: all 1s;
+}
+
+.button-label button:nth-child(1) {
+  background-color: aqua;
+}
+.button-label button:nth-child(2) {
+  background-color: var(--blue);
+}
+.button-label button:nth-child(1):hover {
+  scale: 1.2;
+  margin-right: 5px;
+}
+.button-label button:nth-child(2):hover {
+  margin-left: 5px;
+  scale: 1.2;
+}

@@ -1,0 +1,81 @@
+.expenses-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: auto;
+}
+
+.no-expenses {
+  align-content: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-expenses img {
+  width: 400px;
+  height: auto;
+}
+
+.no-expenses span {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.no-expenses button {
+  border: none;
+  width: auto;
+  height: auto;
+  padding: 10px 20px;
+  background-color: aqua;
+  margin-top: 20px;
+  color: gray;
+  font-size: 20px;
+}
+
+.expenses-details {
+  display: flex;
+  padding: 10px 20px;
+}
+
+.expenses-details table {
+  width: 100%;
+  border-spacing: 0;
+}
+.expenses-details table tbody {
+  width: 100%;
+  height: auto;
+}
+
+.expenses-details table tbody tr {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.expenses-details table th {
+  text-transform: capitalize;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+  padding-bottom: 20px;
+}
+
+.expenses-details table tbody tr td {
+  padding-top: 30px;
+  border-right: 2px solid rgba(128, 128, 128, 0.5);
+}
+
+.expenses-details table tbody tr td:nth-child(6) {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-right: none;
+}
+
+/* .expenses-details table tbody tr td:nth-child(6) span {
+  padding: 3px;
+  font-size: 15px;
+  border-radius: 2px;
+} */

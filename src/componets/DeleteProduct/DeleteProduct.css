@@ -1,0 +1,25 @@
+.delete-product-modal {
+  width: 500px;
+  height: fit-content;
+  background-color: white;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  gap: 1rem;
+}
+
+.delete-product-modal input {
+  width: 80%;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.delete-product-modal button {
+  margin-bottom: 30px;
+  background-color: var(--blue);
+  font-size: 25px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+}
