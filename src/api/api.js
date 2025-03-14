@@ -1,11 +1,10 @@
 import axios from "axios";
 
 const apiRoute = axios.create({
-  baseURL: import.meta.env.VITE_BASE_URL,
+  baseURL: "https://papers-back-end.vercel.app",
   withCredentials: true,
 });
 
-console.log(import.meta.env.VITE_BASE_URL);
 // authentication server routing
 export const login = (formData) => apiRoute.post("/auth/login", formData);
 
