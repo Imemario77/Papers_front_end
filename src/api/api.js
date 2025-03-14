@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiRoute = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: process.env.BASE_URL,
   withCredentials: true,
 });
 
@@ -130,4 +130,5 @@ export const resetPassword = (formData) =>
 export const verifyOtp = (formData) => apiRoute.post("/otp/verify", formData);
 
 export const resendOtp = (formData) => apiRoute.post("/otp/resend", formData);
-export const deleteAndResetPassword = (formData) => apiRoute.post("/otp/password", formData);
+export const deleteAndResetPassword = (formData) =>
+  apiRoute.post("/otp/password", formData);
