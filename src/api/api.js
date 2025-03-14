@@ -5,6 +5,7 @@ const apiRoute = axios.create({
   withCredentials: true,
 });
 
+console.log(import.meta.env.VITE_BASE_URL);
 // authentication server routing
 export const login = (formData) => apiRoute.post("/auth/login", formData);
 
