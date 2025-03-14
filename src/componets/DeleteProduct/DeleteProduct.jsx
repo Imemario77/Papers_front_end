@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "./deleteProduct.css";
+import "./DeleteProduct.css";
 import { deleteOneProduct } from "../../api/api";
 
 function DeleteProduct(props) {
